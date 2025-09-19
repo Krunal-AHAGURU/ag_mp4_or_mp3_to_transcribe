@@ -1,4 +1,17 @@
 """
+github link for modal : https://github.com/SYSTRAN/faster-whisper
+
+Model options in faster-whisper:
+Model size	Description
+tiny	Very fast, low accuracy
+base	Fast, medium-low accuracy
+small	Medium speed, good accuracy
+medium	Slower, higher accuracy
+large	Slowest, best accuracy
+
+
+currently we are using small 
+
 pip install faster-whisper
 pip install ffmpeg-python
 pip install pandas
